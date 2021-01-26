@@ -14,7 +14,7 @@ module.exports = merge(common, {
     devServer: {
         contentBase: './src/public',
         compress: true,
-        port: 8083
+        port: 8080
     },
     plugins: [
         new CleanWebpackPlugin(),
