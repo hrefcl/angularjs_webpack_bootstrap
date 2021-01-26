@@ -1,9 +1,9 @@
 # angularjs-webpack
 
 
-A complete, yet simple, starter for AngularJS using Webpack.
+Un iniciador completo, pero simple, para AngularJS 1.8 usando Webpack 5 y los ultimos disponible al dia de hoy.
 
-This workflow serves as a starting point for building AngularJS (1.x) applications using Webpack 2.x. Should be noted that apart from the pre-installed angular package, this workflow is pretty much generic.
+Este flujo de trabajo sirve como punto de partida para crear aplicaciones AngularJS (1.8) utilizando Webpack 2.x. Cabe señalar que, aparte del paquete angular preinstalado, este flujo de trabajo es bastante genérico.
 
 * Heavily commented webpack configuration with reasonable defaults.
 * ES6, and ES7 support with babel.
@@ -22,10 +22,10 @@ This workflow serves as a starting point for building AngularJS (1.x) applicatio
 
 ```bash
 # clone our repo
-$ git clone https://github.com/preboot/angularjs-webpack.git my-app
+$ git clone https://github.com/hrefcl/angularjs_webpack_bootstrap mi-angular
 
 # change directory to your app
-$ cd my-app
+$ cd mi-angular
 
 # install the dependencies with npm
 $ npm install

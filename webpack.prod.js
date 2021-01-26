@@ -7,10 +7,6 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 
-// console.log(webpack)
-
-// console.log(webpack.optimize)
-
 module.exports = merge(common, {
     mode: 'production',
     devServer: {
@@ -26,10 +22,9 @@ module.exports = merge(common, {
     plugins: [
         new ImageminPlugin({
             // disable for dev builds
-            disable: !isProduction,
             test: /\.(jpe?g|png|gif)$/i,
-            pngquant: {quality: '70-85'},
-            optipng: {optimizationLevel: 9}
+            pngquant: { quality: '70-85' },
+            optipng: { optimizationLevel: 9 }
         }),
         new HtmlWebpackPlugin({
             template: './dist/index.html',

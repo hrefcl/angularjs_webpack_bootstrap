@@ -1,0 +1,53 @@
+//---------------------------------------------
+//
+//  Table of Contents
+//
+//    1. Basics
+//    2. Page Layout
+//    3. Components
+//
+//---------------------------------------------
+
+//---------------------------------------------
+// 1. Basics
+//---------------------------------------------
+
+@import "variables";
+@import "bootstrap";
+@import "fonts";
+
+//---------------------------------------------
+// 2. Page Layout
+//---------------------------------------------
+
+body {
+}
+
+//---------------------------------------------
+// 3.Components
+//---------------------------------------------
+
+@import "components/slider";
+
+/* styles in src/style directory are applied to the whole page */
+body {
+    background: #0147A7;
+    color: #fff;
+  }
+  
+  a {
+    color: #03A9F4;
+  }
+  
+  main {
+    padding: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    display: block;
+  }
+  
+  footer {
+    text-align: center;
+    font-size: 0.8em;
+  }
